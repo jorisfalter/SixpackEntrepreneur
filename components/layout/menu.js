@@ -57,11 +57,11 @@ const Menu = ({ addClass }) => {
                                         </li>
                                     </ul> */}
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/category/travel">
                     <a>Travel</a>
                   </Link>
-                </li>
+                </li> */}
                 {/* <li className="current-item has-mega-menu">
                   <Link href="#">
                     <a>Mega Menu</a>
@@ -217,7 +217,7 @@ const Menu = ({ addClass }) => {
                     </li>
                   </ul>
                 </li> */}
-                <li>
+                {/* <li>
                   <Link href="/category-grid">
                     <a>Guides</a>
                   </Link>
@@ -251,7 +251,7 @@ const Menu = ({ addClass }) => {
                   <Link href="/category">
                     <a>Blog</a>
                   </Link>
-                </li>
+                </li> */}
               </ul>
 
               <div className={size < 991 ? "d-block d-lg-none" : "d-none"}>
